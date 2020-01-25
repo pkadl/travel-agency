@@ -11,7 +11,7 @@ const OrderSummary = props => (
    
   <div className={styles.component}>
     <h2>
-        Total: <strong> {calculateTotal(formatPrice (props.tripCost), props.opts)}</strong>  
+        Total: <strong> {calculateTotal(formatPrice (props.tripCost), props.opts)} $</strong>  
      
     </h2>
   </div>
